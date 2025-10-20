@@ -25,6 +25,7 @@ pre {
   text-align: left;
   display: inline-block;
   margin: 0 auto;
+  font-size: 14px;
 }
 
 .main-content > pre {
@@ -32,4 +33,22 @@ pre {
   margin-left: auto;
   margin-right: auto;
   width: fit-content;
+}
+
+/* Mobile optimisation */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+  
+  pre {
+    font-size: 8px;
+    padding: 8px;
+    overflow-x: auto;
+    max-width: 100%;
+  }
+  
+  .main-content {
+    font-size: 14px;
+  }
 }
