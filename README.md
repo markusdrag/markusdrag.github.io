@@ -1,3 +1,5 @@
+<div align="center">
+
 ```
 ╔═════════════════════════════════════════════════════════════════════╗
 ║                                                                     ║
@@ -13,6 +15,8 @@
 ╚═════════════════════════════════════════════════════════════════════╝
 ```
 
+</div>
+
 ## About Me
 
 I'm a postdoctoral researcher at the Novo Nordisk Foundation Center for 
@@ -21,6 +25,8 @@ biopsy development and circulating cell-free DNA analysis. My work combines
 long-read and short-read sequencing technologies with computational biology 
 to develop novel diagnostic tools for metabolic disorders and obesity-related 
 diseases.
+
+<div align="center">
 
 ```
     ┌─────────────────────────────────────────────────────────────┐
@@ -33,6 +39,8 @@ diseases.
     │  → Machine learning for clinical applications               │
     └─────────────────────────────────────────────────────────────┘
 ```
+
+</div>
 
 ---
 
