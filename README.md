@@ -85,7 +85,7 @@ obesity and related conditions.
 
 ---
 
-## Publications & Research
+## Selected Publications & Research
 
 **Google Scholar:** [Markus H. Drag](https://scholar.google.com/citations?user=KHoAwvoAAAAJ)
 
