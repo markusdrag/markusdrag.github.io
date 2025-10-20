@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 20px;
   background: white;
+  text-align: center;
 }
 
 .main-content {
@@ -14,12 +15,19 @@ body {
   font-size: 16px;
   line-height: 1.6;
   color: #24292f;
+  text-align: left;
 }
 
 pre {
   background: #f6f8fa;
   padding: 16px;
   overflow: auto;
+  text-align: left;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.main-content > pre {
   display: block;
   margin-left: auto;
   margin-right: auto;
