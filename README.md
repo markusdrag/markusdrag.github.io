@@ -120,7 +120,7 @@ Selected publications:
 
 ```
     ╭───────────────────────────────────────────────────────────╮
-    │  LinkedIn:  linkedin.com/in/markusdrag                    │
+    │  LinkedIn:  [linkedin.com/in/markusdrag](https://www.linkedin.com/in/markusdrag/)                    │
     │  Scholar:   scholar.google.com/citations?user=KHoAwvoAAAAJ│
     │  Email:     markus.drag@sund.ku.dk                        │
     ╰───────────────────────────────────────────────────────────╯
