@@ -1,21 +1,17 @@
-<div align="center">
-
 ```
-╔═════════════════════════════════════════════════════════════════════╗
-║                                                                     ║
+╔═══════════════════════════════════════════════════════════════════════╗
+║                                                                       ║
 ║   ███╗   ███╗ █████╗ ██████╗ ██╗  ██╗██╗   ██╗███████╗              ║
 ║   ████╗ ████║██╔══██╗██╔══██╗██║ ██╔╝██║   ██║██╔════╝              ║
 ║   ██╔████╔██║███████║██████╔╝█████╔╝ ██║   ██║███████╗              ║
 ║   ██║╚██╔╝██║██╔══██║██╔══██╗██╔═██╗ ██║   ██║╚════██║              ║
 ║   ██║ ╚═╝ ██║██║  ██║██║  ██║██║  ██╗╚██████╔╝███████║              ║
 ║   ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚══════╝              ║
-║                                                                     ║
+║                                                                       ║
 ║   Biologist-Biotechnologist | Postdoc | Liquid Biopsy Specialist    ║
-║                                                                     ║
-╚═════════════════════════════════════════════════════════════════════╝
+║                                                                       ║
+╚═══════════════════════════════════════════════════════════════════════╝
 ```
-
-</div>
 
 ## About Me
 
@@ -25,8 +21,6 @@ biopsy development and circulating cell-free DNA analysis. My work combines
 long-read and short-read sequencing technologies with computational biology 
 to develop novel diagnostic tools for metabolic disorders and obesity-related 
 diseases.
-
-<div align="center">
 
 ```
     ┌─────────────────────────────────────────────────────────────┐
@@ -39,8 +33,6 @@ diseases.
     │  → Machine learning for clinical applications               │
     └─────────────────────────────────────────────────────────────┘
 ```
-
-</div>
 
 ---
 
@@ -102,24 +94,25 @@ Selected publications:
 **Liquid Biopsy & cfDNA:**
 - **Drag MH** et al. (2023). Nanopore sequencing reveals methylation changes 
   associated with obesity in circulating cell-free DNA from Göttingen Minipigs. 
-  *Epigenetics*, 18(1):1.
+  *Epigenetics*, 18(1):1. [doi:10.1080/15592294.2023.2199374](https://doi.org/10.1080/15592294.2023.2199374)
   
 - **Drag MH** & Kilpeläinen TO (2021). Cell-Free DNA and RNA—Measurement and 
   Applications in Clinical Diagnostics with Focus on Metabolic Disorders. 
-  *Physiol Genomics*, 53:33-46.
+  *Physiol Genomics*, 53:33-46. [doi:10.1152/physiolgenomics.00086.2020](https://doi.org/10.1152/physiolgenomics.00086.2020)
 
 **Systems Genomics & eQTLs:**
 - **Drag MH** et al. (2019). Characterisation of eQTLs Associated with 
   Androstenone by RNA Sequencing in Porcine Testis. *Physiol Genomics*, 51:488-499.
+  [doi:10.1152/physiolgenomics.00125.2018](https://doi.org/10.1152/physiolgenomics.00125.2018)
   
 - **Drag MH** et al. (2018). Systems Genomics Study Reveals Expression Quantitative 
   Trait Loci, Regulator Genes and Pathways Associated with Boar Taint in Pigs. 
-  *PLoS One*, 13(2):e0192673.
+  *PLoS One*, 13(2):e0192673. [doi:10.1371/journal.pone.0192673](https://doi.org/10.1371/journal.pone.0192673)
 
 **Transcriptomics:**
 - **Drag MH** et al. (2017). Differential Expression and Co-Expression Gene Networks 
   Reveal Candidate Biomarkers of Boar Taint in Non-Castrated Pigs. 
-  *Sci Rep*, 7:12205.
+  *Sci Rep*, 7:12205. [doi:10.1038/s41598-017-11928-0](https://doi.org/10.1038/s41598-017-11928-0)
 
 ---
 
