@@ -38,12 +38,13 @@ diseases.
 
 ## Current Projects
 
+
+### NanoporeToBED Pipeline
+
 <div align="center">
   <img src="nanoporetobed.png" alt="NanoporeToBED Pipeline Logo" width="400">
 </div>
 
-### NanoporeToBED Pipeline
-**[github.com/markusdrag/NanoporeToBED-Pipeline](https://github.com/markusdrag/NanoporeToBED-Pipeline)**
 
 ```
   [Nanopore Data] → [Processing] → [BED Format] → [Downstream Analysis]
@@ -52,6 +53,7 @@ diseases.
     Raw POD5       Alignment      Modification        Statistical
                    QC Steps       Calling             Analysis
 ```
+**[github.com/markusdrag/NanoporeToBED-Pipeline](https://github.com/markusdrag/NanoporeToBED-Pipeline)**
 
 A streamlined bioinformatics workflow for converting nanopore sequencing 
 data into analysis-ready BED format for epigenetic studies.
