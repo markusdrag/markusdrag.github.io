@@ -38,6 +38,10 @@ diseases.
 
 ## Current Projects
 
+<div align="center">
+  <img src="nanoporetobed.png" alt="NanoporeToBED Pipeline Logo" width="400">
+</div>
+
 ### NanoporeToBED Pipeline
 **[github.com/markusdrag/NanoporeToBED-Pipeline](https://github.com/markusdrag/NanoporeToBED-Pipeline)**
 
