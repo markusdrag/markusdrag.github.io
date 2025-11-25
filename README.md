@@ -39,7 +39,7 @@ diseases.
 ## Current Projects
 
 <div align="center">
-  <img src="methylsense.jpg" alt="MethylSense Logo" width="400">
+  <img src="methylsense.png" alt="MethylSense Logo" width="400">
 </div>
 
 ### MethylSense: ML-Powered cfDNA Methylation Diagnostics
