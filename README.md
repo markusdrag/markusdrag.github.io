@@ -38,6 +38,20 @@ diseases.
 
 ## Current Projects
 
+<div align="center">
+  <img src="methylsense.jpg" alt="MethylSense Logo" width="400">
+</div>
+
+### MethylSense: ML-Powered cfDNA Methylation Diagnostics
+**[In Development]**
+
+Building machine learning models that leverage cell-free DNA methylation 
+patterns from nanopore sequencing for disease prediction and clinical 
+decision support in metabolic disorders. Based on recent research 
+demonstrating the diagnostic potential of cfDNA methylation profiling in 
+obesity and related conditions.
+
+**Preprint:** [bioRxiv 2025.04.11.648151](https://www.biorxiv.org/content/10.1101/2025.04.11.648151v1)
 
 ### NanoporeToBED Pipeline
 
@@ -63,7 +77,7 @@ data into analysis-ready BED format for epigenetic studies.
 ### GenomeToWindows
 
 <div align="center">
-  <img src="genometowindows.svg" alt="GenomeToWindows Logo" width="400">
+  <img src="genometowindows.jpg" alt="GenomeToWindows Logo" width="400">
 </div>
 
 
@@ -87,19 +101,6 @@ progress tracking, dry-run mode, and automated environment setup.
 - Flexible window sizes with sensible defaults
 - Database fallback for robust operation
 - One-command installation with micromamba/conda
-
----
-
-### ML-Powered cfDNA Methylation Diagnostics
-**[In Development]**
-
-Building machine learning models that leverage cell-free DNA methylation 
-patterns from nanopore sequencing for disease prediction and clinical 
-decision support in metabolic disorders. Based on recent research 
-demonstrating the diagnostic potential of cfDNA methylation profiling in 
-obesity and related conditions.
-
-**Preprint:** [bioRxiv 2025.04.11.648151](https://www.biorxiv.org/content/10.1101/2025.04.11.648151v1)
 
 ---
 
