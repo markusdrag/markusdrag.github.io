@@ -58,6 +58,38 @@ diseases.
 A streamlined bioinformatics workflow for converting nanopore sequencing 
 data into analysis-ready BED format for epigenetic studies.
 
+---
+
+### GenomeToWindows
+
+<div align="center">
+  <img src="genometowindows.svg" alt="GenomeToWindows Logo" width="400">
+</div>
+
+
+```
+  [Ensembl/UCSC] → [Download] → [Index] → [Window] → [BED Output]
+       |              |           |          |            |
+   Genome DBs    Auto-detect  samtools   bedtools    Custom sizes
+   100+ spp.     Latest       faidx      makewindows  (1-25kb)
+```
+
+**[github.com/markusdrag/GenomeToWindows](https://github.com/markusdrag/GenomeToWindows)**
+
+Automated genome downloading and windowing tool for MethylSense preprocessing. 
+Downloads genomes from Ensembl or UCSC and generates genomic windows with 
+flexible sizes (1kb-25kb). Features automatic fallback between databases, 
+progress tracking, dry-run mode, and automated environment setup.
+
+**Key Features:**
+- Supports 100+ species from Ensembl and UCSC
+- Automatic genome downloading and indexing
+- Flexible window sizes with sensible defaults
+- Database fallback for robust operation
+- One-command installation with micromamba/conda
+
+---
+
 ### ML-Powered cfDNA Methylation Diagnostics
 **[In Development]**
 
