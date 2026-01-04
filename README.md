@@ -39,7 +39,11 @@ diseases.
 ## Current Projects
 
 <div align="center">
-  <img src="methylsense.png" alt="MethylSense Logo" width="400">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="methylsense_dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="methylsense_light.png">
+    <img src="methylsense_light.png" alt="MethylSense Logo" width="400">
+  </picture>
 </div>
 
 ### MethylSense: ML-Powered cfDNA Methylation Diagnostics
@@ -57,7 +61,11 @@ obesity and related conditions.
 ### NanoporeToBED Pipeline
 
 <div align="center">
-  <img src="nanoporetobed.png" alt="NanoporeToBED Pipeline Logo" width="400">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="nanoporetobed_dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="nanoporetobed_light.png">
+    <img src="nanoporetobed_light.png" alt="NanoporeToBED Pipeline Logo" width="400">
+  </picture>
 </div>
 
 
@@ -78,7 +86,11 @@ data into analysis-ready BED format for epigenetic studies.
 ### GenomeToWindows
 
 <div align="center">
-  <img src="genometowindows.jpg" alt="GenomeToWindows Logo" width="400">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="genometowindows_dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="genometowindows_light.png">
+    <img src="genometowindows_light.png" alt="GenomeToWindows Logo" width="400">
+  </picture>
 </div>
 
 
