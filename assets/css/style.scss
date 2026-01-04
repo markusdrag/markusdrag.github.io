@@ -6,6 +6,8 @@ body {
   margin: 0;
   padding: 20px;
   background: white;
+  color: #24292f;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .main-content {
@@ -13,7 +15,7 @@ body {
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.6;
-  color: #24292f;
+  color: inherit;
 }
 
 pre {
@@ -26,6 +28,28 @@ pre {
   margin-right: auto;
   width: fit-content;
   font-size: 14px;
+  color: #24292f;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #0d1117;
+    color: #c9d1d9;
+  }
+  
+  pre {
+    background: #161b22;
+    color: #c9d1d9;
+  }
+  
+  a {
+    color: #58a6ff;
+  }
+  
+  a:visited {
+    color: #8b949e;
+  }
 }
 
 /* Mobile optimisation */
