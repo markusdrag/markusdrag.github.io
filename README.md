@@ -34,7 +34,7 @@ clinical infections in humans and animals.
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="methylsense_dark.png">
+    <source media="(prefers-color-scheme: dark)" srcset="methylsense_dark_v2.png">
     <source media="(prefers-color-scheme: light)" srcset="methylsense_light.png">
     <img src="methylsense_light.png" alt="MethylSense Logo" width="720">
   </picture>
