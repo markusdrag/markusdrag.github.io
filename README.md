@@ -2,27 +2,19 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="name_dark.png?v=180">
     <source media="(prefers-color-scheme: light)" srcset="name_light.png?v=180">
-    <img src="name_light.png?v=180" alt="Markus Hodal Drag" width="1000">
+    <img src="name_light.png?v=180" alt="Markus Hodal Drag" width="100%">
   </picture>
 </div>
 
 ## About Me
 
-Hi, I'm Markus! A happy PostDoc previously located at the Novo Nordisk Foundation Center for 
-Basic Metabolic Research, University of Copenhagen, specialising in liquid 
-biopsy development and circulating cell-free DNA analysis. My work combines 
-long-read and short-read sequencing technologies with epigenetics, ML, and 
-computational biology to develop novel diagnostic tools to quickly and 
-efficiently diagnose metabolic disorders, obesity-related diseases, and 
-clinical infections in humans and animals.
+Hi, I'm Markus! A happy PostDoc previously located at the Novo Nordisk Foundation Center for Basic Metabolic Research, University of Copenhagen, specialising in liquid biopsy development and circulating cell-free DNA analysis. My work combines long-read and short-read sequencing technologies with epigenetics, ML, and computational biology to develop novel diagnostic tools to quickly and efficiently diagnose metabolic disorders, obesity-related diseases, and clinical infections in humans and animals.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="research_focus_dark.png?v=2">
   <source media="(prefers-color-scheme: light)" srcset="research_focus_light.png?v=2">
-  <img src="research_focus_light.png?v=2" alt="Research focus: liquid biopsy, cell-free DNA, sequencing, epigenetic biomarkers, machine learning" width="560" align="left">
+  <img src="research_focus_light.png?v=2" alt="Research focus: liquid biopsy, cell-free DNA, sequencing, epigenetic biomarkers, machine learning" width="560">
 </picture>
-
-<br clear="all">
 
 ---
 
@@ -32,7 +24,7 @@ clinical infections in humans and animals.
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="methylsense_dark_v2.png">
     <source media="(prefers-color-scheme: light)" srcset="methylsense_light.png">
-    <img src="methylsense_light.png" alt="MethylSense Logo" width="720">
+    <img src="methylsense_light.png" alt="MethylSense Logo" width="100%">
   </picture>
 </div>
 
@@ -46,24 +38,24 @@ Read the whole publication here and check out the repo!
 **Repository:** [github.com/markusdrag/MethylSense](https://github.com/markusdrag/MethylSense)
 
 ---
+
 ### NanoporeToBED Pipeline
 
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="nanoporetobed_dark.png">
     <source media="(prefers-color-scheme: light)" srcset="nanoporetobed_light.png">
-    <img src="nanoporetobed_light.png" alt="NanoporeToBED Pipeline Logo" width="400">
+    <img src="nanoporetobed_light.png" alt="NanoporeToBED Pipeline Logo" width="70%">
   </picture>
 </div>
 
+**Pipeline**
 
-```
-  [Nanopore Data] → [Processing] → [BED Format] → [Downstream Analysis]
-       |                |              |                   |
-    Raw FAST5      Basecalling    Methylation         Visualisation
-    Raw POD5       Alignment      Modification        Statistical
-                   QC Steps       Calling             Analysis
-```
+1. **Nanopore data** — raw FAST5 / POD5  
+2. **Processing** — basecalling, alignment, QC  
+3. **BED format** — methylation / modification calling  
+4. **Downstream** — visualisation and statistical analysis  
+
 **[github.com/markusdrag/NanoporeToBED-Pipeline](https://github.com/markusdrag/NanoporeToBED-Pipeline)**
 
 When you want to run MethylSense, you need to convert your Nanopore FAST5/POD5 files into BED files. This is not exactly trivial, but I got your back. Here is a complete streamlined bioinformatics workflow for converting those nanopore sequencing data into analysis-ready BED format for running MethylSense ... or other epigenetic analyses of your choice.
@@ -76,17 +68,17 @@ When you want to run MethylSense, you need to convert your Nanopore FAST5/POD5 f
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="genometowindows_dark.png">
     <source media="(prefers-color-scheme: light)" srcset="genometowindows_light.png">
-    <img src="genometowindows_light.png" alt="GenomeToWindows Logo" width="400">
+    <img src="genometowindows_light.png" alt="GenomeToWindows Logo" width="70%">
   </picture>
 </div>
 
+**Pipeline**
 
-```
-  [Ensembl/UCSC] → [Download] → [Index] → [Window] → [BED Output]
-       |              |           |          |            |
-   Genome DBs    Auto-detect  samtools   bedtools    Custom sizes
-   100+ spp.     Latest       faidx      makewindows  (1-25kb)
-```
+1. **Ensembl / UCSC** — genome DBs, 100+ species  
+2. **Download** — auto-detect latest assembly  
+3. **Index** — samtools faidx  
+4. **Window** — bedtools makewindows  
+5. **BED output** — custom sizes (1–25 kb)  
 
 **[github.com/markusdrag/GenomeToWindows](https://github.com/markusdrag/GenomeToWindows)**
 
@@ -105,21 +97,14 @@ Please check it out before you run MethylSense. I can recommend windows around 5
 
 ## Tech Stack
 
-```
-┌──────────────────┬──────────────────────────────────────────────┐
-│ Languages        │ R, Bash, Python                              │
-├──────────────────┼──────────────────────────────────────────────┤
-│ Workflows        │ Nextflow, Shell scripting                    │
-├──────────────────┼──────────────────────────────────────────────┤
-│ Nanopore Tools   │ Dorado, Modkit, Minimap2, Samtools           │
-├──────────────────┼──────────────────────────────────────────────┤
-│ R Packages       │ ggplot2, dplyr, tidyverse, DESeq2            │
-├──────────────────┼──────────────────────────────────────────────┤
-│ Stat Genetics    │ PLINK, Matrix eQTL, FastQTL                  │
-├──────────────────┼──────────────────────────────────────────────┤
-│ Infrastructure   │ HPC environments, Linux, Git                 │
-└──────────────────┴──────────────────────────────────────────────┘
-```
+| Area | Tools |
+| --- | --- |
+| **Languages** | R, Bash, Python |
+| **Workflows** | Nextflow, Shell scripting |
+| **Nanopore** | Dorado, Modkit, Minimap2, Samtools |
+| **R packages** | ggplot2, dplyr, tidyverse, DESeq2 |
+| **Stat genetics** | PLINK, Matrix eQTL, FastQTL |
+| **Infrastructure** | HPC environments, Linux, Git |
 
 ---
 
@@ -130,44 +115,24 @@ Please check it out before you run MethylSense. I can recommend windows around 5
 Selected publications:
 
 **Liquid Biopsy & cfDNA:**
-- **Drag MH** et al. (2026). MethylSense: high accuracy machine learning-based 
-  diagnostics for *Aspergillus fumigatus* infection in chickens using host 
-  cell-free DNA methylation and Nanopore sequencing. *J Clin Microbiol*. 
-  [doi:10.1128/jcm.01054-25](https://journals.asm.org/doi/10.1128/jcm.01054-25)
-
-- **Drag MH** et al. (2023). Nanopore sequencing reveals methylation changes 
-  associated with obesity in circulating cell-free DNA from Göttingen Minipigs. 
-  *Epigenetics*, 18(1):1. [doi:10.1080/15592294.2023.2199374](https://doi.org/10.1080/15592294.2023.2199374)
-  
-- **Drag MH** & Kilpeläinen TO (2021). Cell-Free DNA and RNA—Measurement and 
-  Applications in Clinical Diagnostics with Focus on Metabolic Disorders. 
-  *Physiol Genomics*, 53:33-46. [doi:10.1152/physiolgenomics.00086.2020](https://doi.org/10.1152/physiolgenomics.00086.2020)
+- **Drag MH** et al. (2026). MethylSense: high accuracy machine learning-based diagnostics for *Aspergillus fumigatus* infection in chickens using host cell-free DNA methylation and Nanopore sequencing. *J Clin Microbiol*. [doi:10.1128/jcm.01054-25](https://journals.asm.org/doi/10.1128/jcm.01054-25)
+- **Drag MH** et al. (2023). Nanopore sequencing reveals methylation changes associated with obesity in circulating cell-free DNA from Göttingen Minipigs. *Epigenetics*, 18(1):1. [doi:10.1080/15592294.2023.2199374](https://doi.org/10.1080/15592294.2023.2199374)
+- **Drag MH** & Kilpeläinen TO (2021). Cell-Free DNA and RNA—Measurement and Applications in Clinical Diagnostics with Focus on Metabolic Disorders. *Physiol Genomics*, 53:33-46. [doi:10.1152/physiolgenomics.00086.2020](https://doi.org/10.1152/physiolgenomics.00086.2020)
 
 **Systems Genomics & eQTLs:**
-- **Drag MH** et al. (2019). Characterisation of eQTLs Associated with 
-  Androstenone by RNA Sequencing in Porcine Testis. *Physiol Genomics*, 51:488-499.
-  [doi:10.1152/physiolgenomics.00125.2018](https://doi.org/10.1152/physiolgenomics.00125.2018)
-  
-- **Drag MH** et al. (2018). Systems Genomics Study Reveals Expression Quantitative 
-  Trait Loci, Regulator Genes and Pathways Associated with Boar Taint in Pigs. 
-  *PLoS One*, 13(2):e0192673. [doi:10.1371/journal.pone.0192673](https://doi.org/10.1371/journal.pone.0192673)
+- **Drag MH** et al. (2019). Characterisation of eQTLs Associated with Androstenone by RNA Sequencing in Porcine Testis. *Physiol Genomics*, 51:488-499. [doi:10.1152/physiolgenomics.00125.2018](https://doi.org/10.1152/physiolgenomics.00125.2018)
+- **Drag MH** et al. (2018). Systems Genomics Study Reveals Expression Quantitative Trait Loci, Regulator Genes and Pathways Associated with Boar Taint in Pigs. *PLoS One*, 13(2):e0192673. [doi:10.1371/journal.pone.0192673](https://doi.org/10.1371/journal.pone.0192673)
 
 **Transcriptomics:**
-- **Drag MH** et al. (2017). Differential Expression and Co-Expression Gene Networks 
-  Reveal Candidate Biomarkers of Boar Taint in Non-Castrated Pigs. 
-  *Sci Rep*, 7:12205. [doi:10.1038/s41598-017-11928-0](https://doi.org/10.1038/s41598-017-11928-0)
+- **Drag MH** et al. (2017). Differential Expression and Co-Expression Gene Networks Reveal Candidate Biomarkers of Boar Taint in Non-Castrated Pigs. *Sci Rep*, 7:12205. [doi:10.1038/s41598-017-11928-0](https://doi.org/10.1038/s41598-017-11928-0)
 
 ---
 
 ## Let's Connect
 
-```
-    ╭───────────────────────────────────────────────────────────╮
-    │  LinkedIn:  linkedin.com/in/markusdrag                    │
-    │  Scholar:   scholar.google.com/citations?user=KHoAwvoAAAAJ│
-    │  Email:     markus.drag@sund.ku.dk                        │
-    ╰───────────────────────────────────────────────────────────╯
-```
+- **LinkedIn:** [linkedin.com/in/markusdrag](https://linkedin.com/in/markusdrag)
+- **Scholar:** [scholar.google.com/citations?user=KHoAwvoAAAAJ](https://scholar.google.com/citations?user=KHoAwvoAAAAJ)
+- **Email:** [markus.drag@sund.ku.dk](mailto:markus.drag@sund.ku.dk)
 
 ---
 
