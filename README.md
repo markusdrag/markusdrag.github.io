@@ -18,7 +18,7 @@ Hi, I'm Markus! A happy PostDoc previously located at the Novo Nordisk Foundatio
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="methylsense_dark_v2.png">
     <source media="(prefers-color-scheme: light)" srcset="methylsense_light.png">
-    <img src="methylsense_light.png" alt="MethylSense Logo" width="100%">
+    <img src="methylsense_light.png" alt="MethylSense Logo" width="65%">
   </picture>
 </div>
 
