@@ -10,12 +10,6 @@
 
 Hi, I'm Markus! A happy PostDoc previously located at the Novo Nordisk Foundation Center for Basic Metabolic Research, University of Copenhagen, specialising in liquid biopsy development and circulating cell-free DNA analysis. My work combines long-read and short-read sequencing technologies with epigenetics, ML, and computational biology to develop novel diagnostic tools to quickly and efficiently diagnose metabolic disorders, obesity-related diseases, and clinical infections in humans and animals.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="research_focus_dark.png?v=2">
-  <source media="(prefers-color-scheme: light)" srcset="research_focus_light.png?v=2">
-  <img src="research_focus_light.png?v=2" alt="Research focus: liquid biopsy, cell-free DNA, sequencing, epigenetic biomarkers, machine learning" width="560">
-</picture>
-
 ---
 
 ## Current Projects
