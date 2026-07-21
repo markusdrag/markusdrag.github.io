@@ -22,8 +22,6 @@ Hi, I'm Markus! A happy PostDoc previously located at the Novo Nordisk Foundatio
   </picture>
 </div>
 
-### MethylSense: ML-Powered cfDNA Methylation Diagnostics
-
 MethylSense is a powerful automated workflow to develop new diagnostic tests based on ML-analysis of methylation data, for example from blood-extracted cell-free DNA. The concept is species-agnostic, you just need epigenetic data. MethylSense will find differentially methylated regions (DMRs) and train ML models to recognise the infection or inflammatory condition, that you want to diagnose. Just remember to have loads of healthy samples too!
 
 Read the whole publication here and check out the repo!
