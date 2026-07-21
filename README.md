@@ -16,13 +16,13 @@ computational biology to develop novel diagnostic tools to quickly and
 efficiently diagnose metabolic disorders, obesity-related diseases, and 
 clinical infections in humans and animals.
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="research_focus_dark.png?v=2">
-    <source media="(prefers-color-scheme: light)" srcset="research_focus_light.png?v=2">
-    <img src="research_focus_light.png?v=2" alt="Research focus: liquid biopsy, cell-free DNA, sequencing, epigenetic biomarkers, machine learning" width="560">
-  </picture>
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="research_focus_dark.png?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="research_focus_light.png?v=2">
+  <img src="research_focus_light.png?v=2" alt="Research focus: liquid biopsy, cell-free DNA, sequencing, epigenetic biomarkers, machine learning" width="560" align="left">
+</picture>
+
+<br clear="all">
 
 ---
 
